@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #0d6efd;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #0d6efd;
+  }
+  
+  /* Hero Section */
+  section.bg-light {
+    background: url('couple.jpg') center center/cover no-repeat;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Feature Cards */
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Button Customization */
+  .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-outline-secondary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  /* Postcode Input */
+  .nav-item input {
+    max-width: 120px;
+  }
+  
